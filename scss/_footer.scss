@@ -1,0 +1,66 @@
+@import "_extend";
+@import "_mixin";
+
+.footer{
+    font-size: 1.75em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding: 25px;
+    background: $color2;
+    margin: 0px;
+    div{
+        h2 {font-size: 2em;
+            font-weight: bold;
+        }
+        p{
+            font-size: 0.75em;
+            margin-top: 20px;
+            span{
+                font-weight: bold;
+                font-size: italica;
+            }
+        }
+    }
+    div{
+        h3{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px;
+            padding: 0 0 0 20px;
+            
+        }
+        ul{
+            li{
+                display: block;
+                position: relative;
+                margin: 0px;
+                a{
+                    color: $color1;
+                    padding: 0px 5px;
+                    font-size: 0.8em;  
+                }
+            }
+        }
+    }
+    .social{
+        margin: 10px;
+        p{
+            text-align: center;
+            font-size: italica;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        .divRedes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                @extend %redes-position;
+            }
+            a:hover {
+                @extend %redes-hover;
+            }    
+        }
+    }
+}

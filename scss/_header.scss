@@ -1,0 +1,127 @@
+@import "_extend";
+@import "_mixin";
+
+header{
+    div{
+        @extend %display-around;
+        font-size: 2em;
+        width: 100%;
+        margin: 0px;
+        div{
+            @extend %header-position;
+            margin: 25px;
+            width: 300px;
+            height: 120px;
+            background-image: url("../multimedia/auto2-min.jpg"); 
+            h1{
+                color: $color2;
+                font-size: 200%;
+                padding: 5px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }    
+        form{
+            @extend %header-position;
+            left: 10px;
+            background: $color2;
+            margin: 15px;
+            padding: 5px;
+            width: 100px;
+            height: 50px;
+            .form-control{
+                border-radius: 10px;
+            }
+            .btn-outline-success{
+                color: $color1;
+                border-color: $color1;
+                margin: 0;
+                width: auto;
+                border-radius: 20px;
+            }
+            .btn-outline-success:hover,
+            .btn-outline-success:focus,
+            .btn-outline-success:active,
+            .btn-check:active+.btn-outline-success:focus,
+            .btn-check:checked+.btn-outline-success:focus,
+            .btn-outline-success.active:focus,
+            .btn-outline-success.dropdown-toggle.show:focus,
+            .btn-outline-success:active:focus,
+            .btn-check:focus+.btn-outline-success,
+            .btn-outline-success:focus,
+            .btn-check:focus+.btn,
+            .btn:focus{
+                color: $color2;
+                background-color: $color1;
+                border-color: $color3;
+                box-shadow: 0 0 1em 0.5em $color3;
+                border-radius: 20px;
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .header{
+        div{
+            font-size: 2em;
+            width: 100%;
+            margin: 10px;
+            div{
+                margin: 5px;
+                h1{
+                    color: $color2;
+                    font-size: 200%;
+                    padding: 5px;
+                    
+                }
+            }  
+        }
+    }
+}
+@media (max-width: 650px){
+    .header{
+        div{
+            font-size: 2em;
+            width: 100%;
+            margin: 10px;
+            div{
+                margin: 5px;
+                h1{
+                    color: $color2;
+                    font-size: 150%;
+                    padding: 5px;
+                    
+                }
+            }
+            form{
+                margin: 10px;
+                padding: 5px;
+                width: 80%;
+            }   
+        }
+    }
+}
+@media (max-width: 425px){
+    .header{
+        div{
+            font-size: 2em;
+            width: 100%;
+            margin: 10px;
+            div{
+                margin: 5px;
+                h1{
+                    color: $color2;
+                    font-size: 120%;
+                    padding: 5px;
+                    
+                }
+            }
+            form{
+                margin: 10px;
+                padding: 5px;
+                width: 80%;
+            }   
+        }
+    }
+} 

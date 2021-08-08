@@ -1,0 +1,1058 @@
+* {
+  Margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+html body div ul {
+  list-style: none;
+}
+
+html body div ul a {
+  text-decoration: none;
+}
+
+section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
+  font-size: 2em;
+  background: #ff5353;
+  border: 3px solid silver;
+  margin: 15px 10px 5px 10px;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 30px;
+}
+
+header div, section .sectionInicio, section div div, .sectionOutlet, .section, .section .sectionDiv, .section .formSection fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sectionInicio, section .sectionInicio .articleInicio {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #ff5353;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 7px;
+}
+
+header div div, header div form {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid silver;
+  top: 10px;
+  right: 10px;
+  border-radius: 20px;
+}
+
+.navegacion div .links2 a, .footer .social .divRedes a {
+  margin: 5px 10px;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  background: silver;
+  border: 3px solid gray;
+  border-radius: 100%;
+  line-height: 1.75em;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 100%;
+}
+
+.navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff5353;
+  -webkit-box-shadow: 0 0 1em 0.5em silver;
+          box-shadow: 0 0 1em 0.5em silver;
+}
+
+header div {
+  font-size: 2em;
+  width: 100%;
+  margin: 0px;
+}
+
+header div div {
+  margin: 25px;
+  width: 300px;
+  height: 120px;
+  background-image: url("../multimedia/auto2-min.jpg");
+}
+
+header div div h1 {
+  color: #ff5353;
+  font-size: 200%;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header div form {
+  left: 10px;
+  background: #ff5353;
+  margin: 15px;
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+header div form .form-control {
+  border-radius: 10px;
+}
+
+header div form .btn-outline-success {
+  color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  width: auto;
+  border-radius: 20px;
+}
+
+header div form .btn-outline-success:hover,
+header div form .btn-outline-success:focus,
+header div form .btn-outline-success:active,
+header div form .btn-check:active + .btn-outline-success:focus,
+header div form .btn-check:checked + .btn-outline-success:focus,
+header div form .btn-outline-success.active:focus,
+header div form .btn-outline-success.dropdown-toggle.show:focus,
+header div form .btn-outline-success:active:focus,
+header div form .btn-check:focus + .btn-outline-success,
+header div form .btn-outline-success:focus,
+header div form .btn-check:focus + .btn,
+header div form .btn:focus {
+  color: #ff5353;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: silver;
+  -webkit-box-shadow: 0 0 1em 0.5em silver;
+          box-shadow: 0 0 1em 0.5em silver;
+  border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .header div {
+    font-size: 2em;
+    width: 100%;
+    margin: 10px;
+  }
+  .header div div {
+    margin: 5px;
+  }
+  .header div div h1 {
+    color: #ff5353;
+    font-size: 200%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header div {
+    font-size: 2em;
+    width: 100%;
+    margin: 10px;
+  }
+  .header div div {
+    margin: 5px;
+  }
+  .header div div h1 {
+    color: #ff5353;
+    font-size: 150%;
+    padding: 5px;
+  }
+  .header div form {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .header div {
+    font-size: 2em;
+    width: 100%;
+    margin: 10px;
+  }
+  .header div div {
+    margin: 5px;
+  }
+  .header div div h1 {
+    color: #ff5353;
+    font-size: 120%;
+    padding: 5px;
+  }
+  .header div form {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+  }
+}
+
+section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
+  font-size: 2em;
+  background: #ff5353;
+  border: 3px solid silver;
+  margin: 15px 10px 5px 10px;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 30px;
+}
+
+header div, section .sectionInicio, section div div, .sectionOutlet, .section, .section .sectionDiv, .section .formSection fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sectionInicio, section .sectionInicio .articleInicio {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #ff5353;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 7px;
+}
+
+header div div, header div form {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid silver;
+  top: 10px;
+  right: 10px;
+  border-radius: 20px;
+}
+
+.navegacion div .links2 a, .footer .social .divRedes a {
+  margin: 5px 10px;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  background: silver;
+  border: 3px solid gray;
+  border-radius: 100%;
+  line-height: 1.75em;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 100%;
+}
+
+.navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff5353;
+  -webkit-box-shadow: 0 0 1em 0.5em silver;
+          box-shadow: 0 0 1em 0.5em silver;
+}
+
+.navegacion {
+  border-radius: 30px;
+  border: 3px solid silver;
+  background: #ff5353;
+  font-size: 2em;
+  margin: 5px 10px 5px 10px;
+  padding: 0px 10px 0px;
+}
+
+.navegacion div {
+  display: inline-block;
+  position: relative;
+}
+
+.navegacion div button {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.navegacion div .navbar-collapse {
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+}
+
+.navegacion div .navbar-collapse ul {
+  display: inline-block;
+  position: relative;
+}
+
+.navegacion div .navbar-collapse ul li {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+}
+
+.navegacion div .navbar-collapse ul li a {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0px 5px;
+  font-size: 1em;
+}
+
+.navegacion div .navbar-collapse ul li a:hover {
+  border-color: silver;
+  padding: 0px 5px;
+  border-radius: 10px;
+}
+
+.navegacion div .navbar-collapse ul li ul {
+  border-radius: 30px;
+  border: 3px solid silver;
+  background: #ff5353;
+  display: none;
+  position: absolute;
+  margin: 0px;
+}
+
+.navegacion div .navbar-collapse ul li ul li {
+  display: block;
+  text-align: left;
+  width: 150px;
+}
+
+.navegacion div .links2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
+  font-size: 2em;
+  background: #ff5353;
+  border: 3px solid silver;
+  margin: 15px 10px 5px 10px;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 30px;
+}
+
+header div, section .sectionInicio, section div div, .sectionOutlet, .section, .section .sectionDiv, .section .formSection fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sectionInicio, section .sectionInicio .articleInicio {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #ff5353;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 7px;
+}
+
+header div div, header div form {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid silver;
+  top: 10px;
+  right: 10px;
+  border-radius: 20px;
+}
+
+.navegacion div .links2 a, .footer .social .divRedes a {
+  margin: 5px 10px;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  background: silver;
+  border: 3px solid gray;
+  border-radius: 100%;
+  line-height: 1.75em;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 100%;
+}
+
+.navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff5353;
+  -webkit-box-shadow: 0 0 1em 0.5em silver;
+          box-shadow: 0 0 1em 0.5em silver;
+}
+
+.row {
+  margin-top: calc(var(--bs-gutter-y) * 0);
+  margin-right: calc(var(--bs-gutter-x) * 0);
+  margin-left: calc(var(--bs-gutter-x) * 0);
+}
+
+section .sectionInicio {
+  background: #ff5353;
+  border: 3px solid silver;
+}
+
+section .sectionInicio .articleInicio {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  /*  flex-wrap: wrap; */
+  background: silver;
+  border: 1px solid gray;
+  -webkit-box-shadow: 2px 2px 6px 0px black;
+          box-shadow: 2px 2px 6px 0px black;
+  padding: 0 0 20px;
+  margin-top: 5px;
+}
+
+section .sectionInicio .articleInicio img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+section .sectionInicio .articleInicio img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+section .sectionInicio .articleInicio div {
+  padding: 10px 10px 25px;
+  margin-top: 5px;
+}
+
+section .sectionInicio .articleInicio div h3 {
+  font-size: 1.5em;
+}
+
+section .sectionInicio .articleInicio div p {
+  font-size: 0.75em;
+}
+
+section .sectionInicio .articleInicio div button {
+  background: gray;
+  border: 0;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+section .links a {
+  border-radius: 100%;
+  border: 3px solid gray;
+  background: silver;
+  margin: 0 10px;
+  text-align: center;
+  height: 3.5em;
+  width: 3.5em;
+  line-height: 3em;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 120%;
+}
+
+section .links a:hover {
+  color: #ff5353;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+section .links .page-item.active .page-link {
+  background-color: #ff5353;
+  border-color: silver;
+}
+
+.modal-content div .button2 {
+  background: gray;
+  border: 0;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  width: 20%;
+}
+
+.sectionIngresar {
+  padding: 15px 15px;
+}
+
+.sectionIngresar form .button1 {
+  border-radius: 10px;
+  border: 3px solid silver;
+  background: gray;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.sectionIngresar form .linkIngresar {
+  color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 10px 5px;
+  font-size: 0.6em;
+}
+
+.sectionIngresar {
+  padding: 15px 15px;
+}
+
+.sectionIngresar .error404 {
+  /* ing{} */
+}
+
+.sectionIngresar .error404 .h2Error404 {
+  -webkit-transform: translateX(10px) rotate(10deg) translateY(15px);
+          transform: translateX(10px) rotate(10deg) translateY(15px);
+  font-size: 4.5em;
+}
+
+.sectionIngresar .error404 h3 {
+  -webkit-transform: translateX(10px) rotate(10deg) translateY(15px);
+          transform: translateX(10px) rotate(10deg) translateY(15px);
+  font: 1.5em sans-serif;
+}
+
+.sectionIngresar .error404 p {
+  font-size: 0.75em;
+  margin-top: 20px;
+}
+
+.sectionIngresar .error404 a .button1 {
+  border-radius: 10px;
+  border: 3px solid silver;
+  background: gray;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+section div h2 {
+  position: relative;
+  font-size: 2.25em;
+  margin: 10px 0 0 0;
+}
+
+section div div article div h3 {
+  /*  position: relative; */
+  font-size: 1.5em;
+  /* margin: 10px 0 0 0; */
+}
+
+.sectionOutlet {
+  border-radius: 10px;
+  border: 3px solid silver;
+  background: #ff5353;
+  font-size: 1.5rem;
+  margin: 15px 20px;
+}
+
+.sectionOutlet div .divOutlet .ulOutlet {
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: silver;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  padding: 0 0px 20px;
+}
+
+.sectionOutlet div .divOutlet .ulOutlet img {
+  border-radius: 5px;
+}
+
+.sectionOutlet div .divOutlet .ulOutlet img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.sectionOutlet div .divOutlet .ulOutlet div {
+  font-size: 1em;
+  padding: 0 10px;
+}
+
+.sectionOutlet div .divOutlet .ulOutlet div .textoOutlet {
+  font-size: 1.5em;
+}
+
+.sectionOutlet div .divOutlet .ulOutlet div button {
+  background: gray;
+  border: 0;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+section div article {
+  border-radius: 50px;
+  margin: 5px 10px;
+}
+
+section div article hgroup h2 {
+  font-size: 1.5em;
+}
+
+section div article hgroup h3 {
+  font-size: 1.25em;
+}
+
+section div hgroup h2 {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 5px;
+}
+
+section div hgroup div {
+  display: inline-block;
+}
+
+section div hgroup div div {
+  /* display: inline-block; */
+}
+
+section div hgroup div div .imgFotos {
+  width: 373.33333px;
+  margin: 5px 10px;
+}
+
+@media (max-width: 650px) {
+  section div hgroup div div .imgFotos {
+    width: 238.29787px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  section div hgroup div div .imgFotos {
+    width: 180.64516px;
+    margin: 5px 10px;
+  }
+}
+
+section div hgroup {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+section div hgroup h2 {
+  margin: 10px;
+}
+
+section div hgroup .divAudio {
+  margin: 10px;
+  width: 430.76923px;
+  height: 78.75px;
+  border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+  section div hgroup .divAudio {
+    margin: 5px 5px;
+    width: 373.33333px;
+    height: 70px;
+  }
+  section div hgroup .divAudio .audio {
+    max-width: 100%;
+    max-height: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  section div hgroup .divAudio {
+    margin: 5px 5px;
+    width: 280px;
+    height: 70px;
+  }
+  section div hgroup .divAudio .audio {
+    max-width: 100%;
+    max-height: 50%;
+  }
+}
+
+section div hgroup {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+section div hgroup h2 {
+  margin: 10px;
+}
+
+section div hgroup iframe {
+  margin: 10px;
+  width: 560px;
+  height: 315px;
+  border-radius: 10px;
+}
+
+section div hgroup video {
+  margin: 10px;
+  width: 560px;
+  height: 315px;
+  border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+  section div hgroup .iframe {
+    width: 280px;
+    height: 280px;
+  }
+  section div hgroup .video1 {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 425px) {
+  section div hgroup .iframe {
+    width: 210px;
+    height: 373.33333px;
+  }
+  section div hgroup .video1 {
+    width: 210px;
+    height: 373.33333px;
+  }
+}
+
+.section {
+  border-radius: 10px;
+  border: 3px solid silver;
+  background: #ff5353;
+  font-size: 1.5em;
+  margin: 15px 20px;
+}
+
+.section .sectionDiv {
+  border-radius: 10px;
+  border: 3px solid gray;
+  background: silver;
+  font-size: 1em;
+  margin: 20px;
+}
+
+.section .sectionDiv .sectionDivArticle {
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: white;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section .formSection {
+  border-radius: 10px;
+  border: 3px solid gray;
+  background: silver;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section .formSection h4 {
+  padding: 10px;
+  letter-spacing: 10px;
+}
+
+.section .formSection fieldset {
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+}
+
+.section .formSection fieldset input {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+.section .formSection fieldset div {
+  /* border: 5px; */
+  margin: 2px;
+  width: 400px;
+  height: auto;
+}
+
+.section .formSection fieldset div textarea {
+  margin: 2px 5px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.section .formSection fieldset input:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff5353;
+}
+
+@media (max-width: 425px) {
+  /* section ---- contactos --------------*/
+  p {
+    font-size: 1em;
+  }
+  .section {
+    font-size: 1em;
+  }
+  .section .formSection fieldset {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .section .formSection fieldset div {
+    width: 200px;
+  }
+  .fromComentario {
+    border: 0px;
+    margin: 0px;
+    width: -webkit-fill-available;
+  }
+  .fromAcepta {
+    border: 0px;
+    margin: 2px;
+  }
+  #comentario {
+    margin: 0px;
+  }
+  #checkboxAcepta {
+    margin: 8px;
+  }
+  input {
+    width: -webkit-fill-available;
+  }
+}
+
+section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
+  font-size: 2em;
+  background: #ff5353;
+  border: 3px solid silver;
+  margin: 15px 10px 5px 10px;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 30px;
+}
+
+header div, section .sectionInicio, section div div, .sectionOutlet, .section, .section .sectionDiv, .section .formSection fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sectionInicio, section .sectionInicio .articleInicio {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #ff5353;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 7px;
+}
+
+header div div, header div form {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid silver;
+  top: 10px;
+  right: 10px;
+  border-radius: 20px;
+}
+
+.navegacion div .links2 a, .footer .social .divRedes a {
+  margin: 5px 10px;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  background: silver;
+  border: 3px solid gray;
+  border-radius: 100%;
+  line-height: 1.75em;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 100%;
+}
+
+.navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ff5353;
+  -webkit-box-shadow: 0 0 1em 0.5em silver;
+          box-shadow: 0 0 1em 0.5em silver;
+}
+
+.footer {
+  font-size: 1.75em;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  padding: 25px;
+  background: #ff5353;
+  margin: 0px;
+}
+
+.footer div h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.footer div p {
+  font-size: 0.75em;
+  margin-top: 20px;
+}
+
+.footer div p span {
+  font-weight: bold;
+  font-size: italica;
+}
+
+.footer div h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px;
+  padding: 0 0 0 20px;
+}
+
+.footer div ul li {
+  display: block;
+  position: relative;
+  margin: 0px;
+}
+
+.footer div ul li a {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0px 5px;
+  font-size: 0.8em;
+}
+
+.footer .social {
+  margin: 10px;
+}
+
+.footer .social p {
+  text-align: center;
+  font-size: italica;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.footer .social .divRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */

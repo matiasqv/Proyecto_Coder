@@ -381,7 +381,7 @@ header div div, header div form {
           align-items: center;
 }
 
-.menu li:hover .submenu {
+.menu > li:hover > .submenu {
   display: block;
 }
 

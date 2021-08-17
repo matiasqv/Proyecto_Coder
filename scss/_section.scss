@@ -124,7 +124,6 @@ section{
     padding:15px 15px;
     .error404{
         @extend %div-ingreso;
-        /* ing{} */
         .h2Error404{
             transform: translateX(10px) rotate(10deg) translateY(15px);
             font-size: 4.5em;
@@ -138,7 +137,6 @@ section{
             margin-top: 20px;
         }
         a{  
-            
             .button1{
                 @include border-style(10px, 3px solid $color3, $color4);
                 
@@ -168,9 +166,7 @@ section{
             article{
                     div{
                         h3{
-                           /*  position: relative; */
                             font-size: 1.5em;
-                            /* margin: 10px 0 0 0; */
                         }
                     }
             }
@@ -250,7 +246,6 @@ section{
             div{
                 display: inline-block;
                 div{
-                    /* display: inline-block; */
                     .imgFotos{
                         width: $width/1.5;
                         margin: 5px 10px;
@@ -401,7 +396,6 @@ section{
             }
             div{
                 @extend %display-around;
-                /* border: 5px; */
                 margin: 2px;
                 width: 400px;
                 height: auto;
@@ -421,7 +415,8 @@ section{
 
 @media (max-width: 425px) {
 
-/* section ---- contactos --------------*/
+    /* section ---- contactos -----*/
+
     p{
         font-size: 1em;
     }

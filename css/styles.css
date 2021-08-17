@@ -357,6 +357,7 @@ header div div, header div form {
   display: none;
   position: absolute;
   margin: 0px;
+  z-index: 3;
 }
 
 .navegacion div .navbar-collapse ul li ul li {

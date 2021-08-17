@@ -506,7 +506,7 @@ section .sectionInicio .articleInicio div {
 }
 
 section .sectionInicio .articleInicio div h3 {
-  font-size: 1.5em;
+  font-size: 1.45em;
 }
 
 section .sectionInicio .articleInicio div p {
@@ -674,12 +674,12 @@ section div article {
   margin: 5px 10px;
 }
 
-section div article hgroup h2 {
-  font-size: 1.5em;
+section div article h3 {
+  font-size: 3em;
 }
 
-section div article hgroup h3 {
-  font-size: 1.25em;
+section div article h4 {
+  font-size: 2em;
 }
 
 section div hgroup h2 {

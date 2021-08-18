@@ -366,6 +366,23 @@ header div div, header div form {
   width: 150px;
 }
 
+@media (max-width: 425px) {
+  .navegacion div .navbar-collapse ul li ul {
+    border-radius: 0px;
+    border: 0px solid silver;
+    background: #ff5353;
+    display: inline-block;
+    position: relative;
+    padding: 0px 15px;
+    font-size: 0.7em;
+  }
+  .navegacion div .navbar-collapse ul li ul li {
+    display: block;
+    text-align: center;
+    width: 100px;
+  }
+}
+
 .navegacion div .links2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -580,10 +597,6 @@ section .links .page-item.active .page-link {
   padding: 15px 15px;
 }
 
-.sectionIngresar .error404 {
-  /* ing{} */
-}
-
 .sectionIngresar .error404 .h2Error404 {
   -webkit-transform: translateX(10px) rotate(10deg) translateY(15px);
           transform: translateX(10px) rotate(10deg) translateY(15px);
@@ -618,9 +631,7 @@ section div h2 {
 }
 
 section div div article div h3 {
-  /*  position: relative; */
   font-size: 1.5em;
-  /* margin: 10px 0 0 0; */
 }
 
 .sectionOutlet {
@@ -691,10 +702,6 @@ section div hgroup h2 {
 
 section div hgroup div {
   display: inline-block;
-}
-
-section div hgroup div div {
-  /* display: inline-block; */
 }
 
 section div hgroup div div .imgFotos {
@@ -857,7 +864,6 @@ section div hgroup video {
 }
 
 .section .formSection fieldset div {
-  /* border: 5px; */
   margin: 2px;
   width: 400px;
   height: auto;
@@ -875,7 +881,7 @@ section div hgroup video {
 }
 
 @media (max-width: 425px) {
-  /* section ---- contactos --------------*/
+  /* section ---- contactos -----*/
   p {
     font-size: 1em;
   }

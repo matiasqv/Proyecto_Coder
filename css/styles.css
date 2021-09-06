@@ -377,8 +377,8 @@ header div div, header div form {
     font-size: 0.7em;
   }
   .navegacion div .navbar-collapse ul li ul li {
-    display: inline-block;
-    text-align: absolute;
+    display: block;
+    text-align: start;
     width: 100px;
   }
 }

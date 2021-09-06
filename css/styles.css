@@ -1,5 +1,5 @@
 * {
-  Margin: 0;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
 }
 
 html body {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.74);
 }
 
 html body div ul {
@@ -39,7 +39,7 @@ section .links {
 
 .sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
   font-size: 2em;
-  background: #ff5353;
+  background: #f83636;
   border: 3px solid silver;
   margin: 15px 10px 5px 10px;
   border-radius: 30px;
@@ -66,8 +66,8 @@ section .sectionInicio, section .sectionInicio .articleInicio {
 section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background: #ff5353;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  background: #f83636;
+  border: 3px solid rgba(0, 0, 0, 0.74);
   border-radius: 30px;
   padding: 7px;
 }
@@ -91,13 +91,13 @@ header div div, header div form {
   border: 3px solid gray;
   border-radius: 100%;
   line-height: 1.75em;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   font-size: 100%;
 }
 
 .navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ff5353;
+  background: rgba(0, 0, 0, 0.74);
+  color: #f83636;
   -webkit-box-shadow: 0 0 1em 0.5em silver;
           box-shadow: 0 0 1em 0.5em silver;
 }
@@ -116,7 +116,7 @@ header div div {
 }
 
 header div div h1 {
-  color: #ff5353;
+  color: #f83636;
   font-size: 200%;
   padding: 5px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -124,7 +124,7 @@ header div div h1 {
 
 header div form {
   left: 10px;
-  background: #ff5353;
+  background: #f83636;
   margin: 15px;
   padding: 5px;
   width: 100px;
@@ -136,8 +136,8 @@ header div form .form-control {
 }
 
 header div form .btn-outline-success {
-  color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
+  border-color: rgba(0, 0, 0, 0.74);
   margin: 0;
   width: auto;
   border-radius: 20px;
@@ -155,8 +155,8 @@ header div form .btn-check:focus + .btn-outline-success,
 header div form .btn-outline-success:focus,
 header div form .btn-check:focus + .btn,
 header div form .btn:focus {
-  color: #ff5353;
-  background-color: rgba(0, 0, 0, 0.7);
+  color: #f83636;
+  background-color: rgba(0, 0, 0, 0.74);
   border-color: silver;
   -webkit-box-shadow: 0 0 1em 0.5em silver;
           box-shadow: 0 0 1em 0.5em silver;
@@ -173,7 +173,7 @@ header div form .btn:focus {
     margin: 5px;
   }
   .header div div h1 {
-    color: #ff5353;
+    color: #f83636;
     font-size: 200%;
     padding: 5px;
   }
@@ -189,7 +189,7 @@ header div form .btn:focus {
     margin: 5px;
   }
   .header div div h1 {
-    color: #ff5353;
+    color: #f83636;
     font-size: 150%;
     padding: 5px;
   }
@@ -204,13 +204,13 @@ header div form .btn:focus {
   .header div {
     font-size: 2em;
     width: 100%;
-    margin: 10px;
+    margin: 0 0 0 10px;
   }
   .header div div {
     margin: 5px;
   }
   .header div div h1 {
-    color: #ff5353;
+    color: #f83636;
     font-size: 120%;
     padding: 5px;
   }
@@ -239,7 +239,7 @@ section .links {
 
 .sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
   font-size: 2em;
-  background: #ff5353;
+  background: #f83636;
   border: 3px solid silver;
   margin: 15px 10px 5px 10px;
   border-radius: 30px;
@@ -266,8 +266,8 @@ section .sectionInicio, section .sectionInicio .articleInicio {
 section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background: #ff5353;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  background: #f83636;
+  border: 3px solid rgba(0, 0, 0, 0.74);
   border-radius: 30px;
   padding: 7px;
 }
@@ -291,13 +291,13 @@ header div div, header div form {
   border: 3px solid gray;
   border-radius: 100%;
   line-height: 1.75em;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   font-size: 100%;
 }
 
 .navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ff5353;
+  background: rgba(0, 0, 0, 0.74);
+  color: #f83636;
   -webkit-box-shadow: 0 0 1em 0.5em silver;
           box-shadow: 0 0 1em 0.5em silver;
 }
@@ -305,7 +305,7 @@ header div div, header div form {
 .navegacion {
   border-radius: 30px;
   border: 3px solid silver;
-  background: #ff5353;
+  background: #f83636;
   font-size: 2em;
   margin: 5px 10px 5px 10px;
   padding: 0px 10px 0px;
@@ -339,7 +339,7 @@ header div div, header div form {
 }
 
 .navegacion div .navbar-collapse ul li a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   padding: 0px 5px;
   font-size: 1em;
 }
@@ -353,7 +353,7 @@ header div div, header div form {
 .navegacion div .navbar-collapse ul li ul {
   border-radius: 30px;
   border: 3px solid silver;
-  background: #ff5353;
+  background: #f83636;
   display: none;
   position: absolute;
   margin: 0px;
@@ -370,15 +370,15 @@ header div div, header div form {
   .navegacion div .navbar-collapse ul li ul {
     border-radius: 0px;
     border: 0px solid silver;
-    background: #ff5353;
+    background: #f83636;
     display: inline-block;
     position: relative;
     padding: 0px 15px;
     font-size: 0.7em;
   }
   .navegacion div .navbar-collapse ul li ul li {
-    display: block;
-    text-align: center;
+    display: inline-block;
+    text-align: absolute;
     width: 100px;
   }
 }
@@ -399,7 +399,7 @@ header div div, header div form {
           align-items: center;
 }
 
-.menu > li:hover > .submenu {
+.menu li:hover .submenu {
   display: block;
 }
 
@@ -421,7 +421,7 @@ section .links {
 
 .sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
   font-size: 2em;
-  background: #ff5353;
+  background: #f83636;
   border: 3px solid silver;
   margin: 15px 10px 5px 10px;
   border-radius: 30px;
@@ -448,8 +448,8 @@ section .sectionInicio, section .sectionInicio .articleInicio {
 section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background: #ff5353;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  background: #f83636;
+  border: 3px solid rgba(0, 0, 0, 0.74);
   border-radius: 30px;
   padding: 7px;
 }
@@ -473,13 +473,13 @@ header div div, header div form {
   border: 3px solid gray;
   border-radius: 100%;
   line-height: 1.75em;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   font-size: 100%;
 }
 
 .navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ff5353;
+  background: rgba(0, 0, 0, 0.74);
+  color: #f83636;
   -webkit-box-shadow: 0 0 1em 0.5em silver;
           box-shadow: 0 0 1em 0.5em silver;
 }
@@ -491,7 +491,7 @@ header div div, header div form {
 }
 
 section .sectionInicio {
-  background: #ff5353;
+  background: #f83636;
   border: 3px solid silver;
 }
 
@@ -549,17 +549,17 @@ section .links a {
   height: 3.5em;
   width: 3.5em;
   line-height: 3em;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   font-size: 120%;
 }
 
 section .links a:hover {
-  color: #ff5353;
-  background: rgba(0, 0, 0, 0.7);
+  color: #f83636;
+  background: rgba(0, 0, 0, 0.74);
 }
 
 section .links .page-item.active .page-link {
-  background-color: #ff5353;
+  background-color: #f83636;
   border-color: silver;
 }
 
@@ -587,7 +587,7 @@ section .links .page-item.active .page-link {
 }
 
 .sectionIngresar form .linkIngresar {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   margin: auto;
   padding: 10px 5px;
   font-size: 0.6em;
@@ -637,7 +637,7 @@ section div div article div h3 {
 .sectionOutlet {
   border-radius: 10px;
   border: 3px solid silver;
-  background: #ff5353;
+  background: #f83636;
   font-size: 1.5rem;
   margin: 15px 20px;
 }
@@ -743,7 +743,7 @@ section div hgroup video {
 .section {
   border-radius: 10px;
   border: 3px solid silver;
-  background: #ff5353;
+  background: #f83636;
   font-size: 1.5em;
   margin: 15px 20px;
 }
@@ -784,7 +784,7 @@ section div hgroup video {
 .section .formSection fieldset {
   padding: 15px;
   border-radius: 10px;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  border: 3px solid rgba(0, 0, 0, 0.74);
 }
 
 .section .formSection fieldset input {
@@ -806,8 +806,8 @@ section div hgroup video {
 }
 
 .section .formSection fieldset input:hover {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ff5353;
+  background: rgba(0, 0, 0, 0.74);
+  color: #f83636;
 }
 
 @media (max-width: 425px) {
@@ -863,7 +863,7 @@ section .links {
 
 .sectionIngresar article, .sectionIngresar form, .sectionIngresar .error404 {
   font-size: 2em;
-  background: #ff5353;
+  background: #f83636;
   border: 3px solid silver;
   margin: 15px 10px 5px 10px;
   border-radius: 30px;
@@ -890,8 +890,8 @@ section .sectionInicio, section .sectionInicio .articleInicio {
 section .sectionInicio .articleInicio div button:hover, .modal-content div .button2:hover, .sectionOutlet div .divOutlet .ulOutlet div button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background: #ff5353;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+  background: #f83636;
+  border: 3px solid rgba(0, 0, 0, 0.74);
   border-radius: 30px;
   padding: 7px;
 }
@@ -915,13 +915,13 @@ header div div, header div form {
   border: 3px solid gray;
   border-radius: 100%;
   line-height: 1.75em;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   font-size: 100%;
 }
 
 .navegacion div .navbar-collapse ul li a:hover, .navegacion div .links2 a:hover, .sectionIngresar form .button1:hover, .sectionIngresar .error404 a .button1:hover, .footer .social .divRedes a:hover {
-  background: rgba(0, 0, 0, 0.7);
-  color: #ff5353;
+  background: rgba(0, 0, 0, 0.74);
+  color: #f83636;
   -webkit-box-shadow: 0 0 1em 0.5em silver;
           box-shadow: 0 0 1em 0.5em silver;
 }
@@ -931,7 +931,7 @@ header div div, header div form {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   padding: 25px;
-  background: #ff5353;
+  background: #f83636;
   margin: 0px;
 }
 
@@ -964,7 +964,7 @@ header div div, header div form {
 }
 
 .footer div ul li a {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.74);
   padding: 0px 5px;
   font-size: 0.8em;
 }

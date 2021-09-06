@@ -54,8 +54,8 @@
                             padding: 0px 15px;
                             font-size: 0.7em;
                             li{
-                                display: block;
-                                text-align: center;
+                                display: inline-block;
+                                text-align: absolute;
                                 width: 100px;
                             }
                         }
@@ -79,7 +79,7 @@
 
 }
 
-.menu>li:hover>.submenu{
+.menu li:hover .submenu{
     display: block;
     
 }

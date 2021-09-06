@@ -37,7 +37,7 @@
                     ul{
                         @include border-style(30px, 3px solid $color3, $color2);
                         display: none;
-                        position: absolute;
+                        position: relative;
                         margin: 0px;
                         z-index: 3;
                         li{
@@ -55,7 +55,7 @@
                             font-size: 0.7em;
                             li{
                                 display: block;
-                                text-align: relative;
+                                text-align: start;
                                 width: 100px;
                             }
                         }
